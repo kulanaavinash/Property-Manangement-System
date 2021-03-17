@@ -1,0 +1,1091 @@
+body{
+	margin : 0;
+	padding : 0;
+	margin: auto;
+	width: 100%
+}
+
+.headerlogo img{
+	position : absolute;
+	width : 150px;
+	height : auto;
+	margin-top : 20px;
+	margin-left : -600px;
+	float : left;
+}
+
+
+header{
+	width : 90%;
+	margin-left : 70px;
+	text-align : center;
+}
+
+nav{
+	width : 100%;
+	overflow :auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 50px 0 0 0px;
+	padding: 0;
+	overflow: hidden;
+	display : inline-block;
+	
+}
+
+li{
+	display : inline;
+	padding : 0px 0px;
+	float : left;
+
+}
+
+nav a{ 
+	padding : 20px 15px ;
+	width : 100px;
+	text-decoration : none;
+	text-align : center;
+	font-family : Lato;
+	text-transform : uppercase;
+	color : #000000;
+	font-weight: bold;
+}
+
+.vendorDrop{
+	background-color: white;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11pt;
+	display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover{
+	background-color: #ddd;
+}
+
+.vendorDrop:hover .dropdowncontent {
+	display: inline;
+}
+
+.vendorDrop:hover {
+}
+
+nav a:hover{
+	color : #5DBCD2;
+	transition : 0.5s;
+	
+}
+
+.login a{
+	text-decoration : none;
+	font-family : Lato;
+	text-transform : uppercase;
+	color : #5DBCD2;
+	font-weight: bold;
+	padding : 0px 10px;
+}
+
+.login ul{
+	margin: -20px 0 0 1150px;
+	display : block;
+}
+
+
+.slide{
+	margin: 50px 0 0 0 ;
+	transition : 0.5s;
+	text-align: center;
+	position: relative;
+
+}
+
+.Slides{
+	width: 100%;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 80%;
+	display: inline-block;
+	position: relative;
+	margin-top: -85px;
+	transition: background-color 0.6s ease;
+}
+
+.dotSlide{
+	position: relative;
+	margin-top: -55px;
+}
+
+.active{
+	background-color: #5DBCD2;
+}
+
+.vPlanners{
+	font-weight: bold;
+}
+
+.foo1 {
+	position: auto;
+	left: 0;
+	margin-top : -200px;
+	padding : 20px 0;
+	width: 100%;
+	height : 50%;
+	color: #878787;
+}
+
+.foo1 img{
+	position : absolute;
+	width : 150px;
+	height : auto;
+	margin-top : -105px;
+	margin-left : 1125px ;
+}
+
+.fooContent{
+	text-decoration : none;
+	text-align : center;
+	font-family : Lato;
+	margin-left : -1150px;
+	margin-top: 10px;
+	position: relative;
+}
+
+
+
+.copyright{
+	margin-left: 2400px;
+}
+
+.col7{
+	margin-left : -29px;
+}
+
+
+.navbar {
+    width: 100%;
+    position: relative;
+    height: auto;
+} 
+
+.navbar li,.content {
+    float: none;
+    text-align: center;
+  }
+
+
+
+.slider-content{
+	position: absolute;
+	margin: 0 auto;
+	width: 40%;
+	height: 20%;
+	margin: -430px 475px;
+	text-align: center;
+}
+
+.on-slide{
+	color: white;
+	font-family: lato;
+	font-size: 30pt;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.on-slide h3{
+	text-align: center;
+	position: relative;
+}
+
+.on-slide p{
+	font-size: 16pt;
+	margin-top: -35px;
+	text-align: center;
+	position: relative;	
+}
+
+.slide .Slides {
+    transition: .5s;
+    transition-property: opacity;
+}
+
+.slide.transition .Slides {
+    opacity: 0;
+}
+
+.slidewrapper{
+	text-align: center;
+	position: relative;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  height: 60px;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  height: 60px;
+  padding: 10px;
+  background: #5DBCD2;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form.example button:hover {
+  background: #3f96aa;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.servicesWrapper{
+	margin-top: 75px;
+	margin: 0 auto;
+}
+
+.servicesSquares{
+	text-align: center;
+	width: 75%;
+	margin-left: 313px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+
+}
+
+.servicesSquaresDown{
+	text-align: center;
+	width: 75%;
+	margin-left: 313px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+.servicesHead img{
+	width: 300px;
+	height: auto;
+	padding:10px;
+	position: relative;
+	text-align: center;
+}
+
+.servicesHead{
+	display:inline;
+	float: left;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.servicesHead img {
+  	transition: transform .4s, filter 1.5s ease-in-out;
+
+  	text-align: center;
+}
+
+
+.servicesHead:hover img {
+
+  	transform: scale(1.05);
+  	text-align: center;
+}
+
+.servicesHead a{
+	text-decoration : none;
+	text-align: center;
+	font-family : Lato;
+	text-transform : uppercase;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+	position: relative;
+	margin: auto;
+}
+
+.servicesHead a:hover{
+	color : #5DBCD2;
+	text-align: center;
+	transition : 0.4s;
+	
+}
+
+.servicesClass{
+	text-align: center;
+	position: relative;
+}
+
+.loginwindow{
+	width : 80%;
+	margin-left : 300px; 
+	float : left;
+	text-align: center;
+	margin-top: -625px;
+	position: relative;
+}
+
+.loginwindow h3{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+
+}
+
+.loginwindow h2{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+
+}
+
+.loginwindow p{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+}
+.loginwindow a{
+	text-decoration : none;
+	font-family : Lato;
+	color : #5DBCD2;
+	font-weight: bold;
+
+}
+
+.loginwindow1{
+	width : 80%;
+	margin-left : 300px; 
+	float : left;
+	text-align: center;
+	margin-top: -375px;
+	position: relative;
+}
+
+.loginwindow1 h3{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+
+}
+
+.loginwindow1 p{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+}
+.loginwindow1 a{
+	text-decoration : none;
+	font-family : Lato;
+	color : #5DBCD2;
+	font-weight: bold;
+
+}
+
+.loginscreen{
+	position: relative;
+}
+
+.loginscreen input[type=text]{
+	border: 1px solid #5DBCD2;
+	border-radius: 2px;
+	width: 35%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+}
+
+
+.loginscreen input[type=password]{
+	border: 1px solid #5DBCD2;
+	border-radius: 2px;
+	width: 35%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+}
+
+.loginscreen input[type=submit]{
+	width: 35%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #5DBCD2;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	position: relative;
+}
+
+.loginwrapper{
+	width: 70%;
+	height: 800%;
+	text-align: center;
+	position: relative;
+	margin-left: 225px;
+}
+
+.loginwrapper img{
+	position: relative;
+	margin-left: -20px;
+	margin-top: 50px;
+	width: 800px;
+	height: auto;
+}
+
+.loginscreenlogo img{
+	position: relative;
+	width: 150px;
+	margin-left: -30px;
+	margin-top: 10px;
+}
+
+
+
+.loginscreen input[type=radio]{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	padding : 0px 20px;
+	margin-top: -10px;
+}
+
+
+
+.socialMediaIcons img{
+	width: 40px;
+	height: auto;
+	display: inline;
+	position: relative;
+}
+
+.socialwrapper{
+	margin-top: -50px;
+	margin-left: -1110px;
+	position: relative;
+	text-align: center;
+}
+
+.fooQuote p{
+	font-family : Lato;
+	font-size: 18pt;
+	color : gray;
+	margin-left: 20px;
+	margin-top: -250px;
+	padding : 0px 10px;
+	position: relative;
+	text-align: center;
+}
+
+.footerImage{
+	width: 100%;
+	position: relative;
+}
+
+.fooTags{
+	position: relative;
+	text-align: center;
+	margin-left: -1200px;
+	margin-top: -90px;
+
+}
+
+.fooTags a{
+	position: relative;
+	text-decoration: none;
+	font-family : Lato;
+	font-weight: bold;
+	font-size: 15pt;
+	color : #353535;
+
+}
+
+.userHeader p{
+	text-decoration: none;
+	color: #5DBCD2;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+	font-family: Lato;
+
+}
+
+.userAccHeaderlogo img{
+	position: relative;
+	width: 150px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+
+.userAccHeaderlogo{
+	position: relative;
+	text-align: center;
+
+}
+
+.userProfCont img{
+	text-align: center;
+	position: relative;
+}
+
+.userLogo{
+	position: relative;
+	width: 120px;
+	height: auto;
+	text-align: center;
+}
+
+.userProfWrapper{
+	text-align: center;
+}
+
+.userInfo input[type=text]{
+	border: 1px solid #5DBCD2;
+	border-radius: 2px;
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+ }
+
+ .userInfo textarea{
+ 	border: 1px solid #5DBCD2;
+	border-radius: 2px;
+	width: 20%;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+ }
+
+ .userInfo label{
+ 	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	text-align: center;
+	margin-left: -220px;
+ }
+
+ .contactImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+ .aboutImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+
+.fade {
+  	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 2s;
+  	animation-name: fade;
+  	animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  	from {opacity: 0.5} 
+  	to {opacity: 1}
+
+
+}
+
+@keyframes fade {
+  	from {opacity: 0.5} 
+  	to {opacity: 1}
+}
+
+
+.contactusContent img{
+	width: 600px;
+	height: auto;
+}
+
+
+.telP{
+	position: relative;
+	text-align: center;
+}
+
+.telP img{
+	width: 600px;
+	height: auto;
+	position: relative;
+	margin-left: -600px;
+	margin-top: -50px;
+}
+
+.contNet{
+	position: relative;
+	text-align: center;
+	margin-top: -19px;
+}
+
+.contNet img{
+	width: 600px;
+	height: auto;
+	position: relative;
+	margin-left: 600px;
+	margin-top: -2200px;
+}
+
+.videoFooter{
+	position: relative;
+	width: 100%;
+	margin-top: -500px;
+}
+
+.dressImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+ .reviewImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+ }
+.reviewItems{
+	position: relative;
+	text-align: center;
+	height: auto;
+	margin-top: 30px;
+}
+
+.reviewItems img{
+	width: 900px;
+	height: auto;
+ }
+
+.dressItems{
+	position: relative;
+	text-align: center;
+	height: auto;
+	margin-top: 30px;
+}
+
+.dressItems img{
+	width: 900px;
+	height: auto;
+ }
+
+
+ .venueImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+.venueItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.venueItems img{
+	width: 900px;
+	height: auto;
+ }
+
+.userAccButton input[type=submit]{
+	width: 5%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #5DBCD2;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 14pt;
+ 	position: relative;
+}
+
+
+.hotelss {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  background: #5DBCD2;
+  color: white;
+  font-size: 17px;
+  border: 1px solid ;
+  border-left: none;
+  font-weight: bold;
+}
+
+.hotelss a{
+  font-size: 17px;
+  text-decoration: none;
+  font-family: Lato;
+  color: white;
+  cursor: pointer;
+}
+
+.hotel1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.hotel2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.hotel3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.hotel4{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.hotel5{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.hotel6{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+
+.dress1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.dress2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.dress3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.dress4{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.dress5{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.telpValues{
+	margin-top: -350px;
+	margin-left: -600px;
+	position: relative;
+}
+
+.telpValues p{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	color: #5DBCD2;
+	font-weight: bold;
+
+}
+
+.telpValues h4{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 14pt;
+
+}
+
+.conNetValues{
+	margin-top: -203px;
+	margin-left: 600px;
+	position: relative;
+}
+
+.conNetValues p{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	color: #5DBCD2;
+	font-weight: bold;
+
+}
+
+.conNetValues a{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	color: #5DBCD2;
+	font-weight: bold;
+
+}
+
+.conNetValues h4{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 14pt;
+
+}
+
+iframe{
+	position: relative;
+	text-align: center;
+	margin-top: 200px;
+
+}
+
+.aboutinf{
+	width: 60%;
+	float: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.aboutInfo{
+	position: relative;
+	text-align: justify;
+	font-family: Lato;
+	font-size: 15pt;
+	margin-top: -500px;
+	margin: 0 auto;
+	color: gray;
+
+}
+
+.decoItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.decoItems img{
+	width: 900px;
+	height: auto;
+ }
+
+ .deco1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.deco2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.deco3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.cakeItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.cakeItems img{
+	width: 900px;
+	height: auto;
+ }
+
+ .cake1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.cake2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.cake3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.photogItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.photogItems img{
+	width: 900px;
+	height: auto;
+ }
+
+ .photog1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.photog2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.photog3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.planItems1{
+	text-decoration:none;
+	font-family: Lato;
+	color: #000000;
+	text-align: center;
+
+}
+
+.planItems{
+	text-align: center;
+}
+
+
+.userToolbarWrapper{
+	position: relative;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.toolbar img{
+	width: 80px;
+	height: auto;
+	text-align: center;
+}
+
+.reset p{
+	text-align: center;
+	font-family: Lato;
+	font-weight: 15pt;
+}
+.reset a{
+	text-decoration: none;
+}

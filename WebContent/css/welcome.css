@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+body{
+	height:100%;
+	background-image:url(../images/add.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.mx-auto {
+ margin-right: auto !important;
+ margin-left: auto !important;
+}
+
+
+#tablelist{
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    margin-top: 10%;
+    opacity: .8;
+}
+
+#addbutton{
+	margin-left:15%; 
+    margin-right:15%;    
+}
+
+#showbutton{
+	width:15.5%;	
+	padding:0.45%;
+	margin-left:70%; 
+    margin-right:30%;
+    margin-top:-5.3%;
+}

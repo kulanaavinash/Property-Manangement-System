@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	background-image:url(../images/new.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.frame{	
+  width: 100%;
+  margin: 10 auto;
+}
+  
+ .container{
+   justify-content: center;
+    align-items: center;
+  
+  
+}
+
+
+
+
+
+.labelsign{
+	color:Black;
+	margin:2% auto;
+}
+
+.signup{	
+	color:Black;
+	font-size: 15px;
+	margin-top:50px;
+  
+}
+
+.signup a{
+	margin-left:20px;
+	/* adjust the size */	
+}
+
+

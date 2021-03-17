@@ -1,0 +1,33 @@
+
+@charset "ISO-8859-1";
+
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.frame{	
+  width: 100%;
+  margin: 0 auto;
+}
+
+.labeladd{	
+	color:black;
+	margin:2% auto;
+}
+
+#inputadd{
+	width: 270px;
+	colour: white;	
+}
+
+
+#buttonadd{
+	width: 100px;
+}

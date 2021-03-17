@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	background-image:url(../images/al.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
+.frame{	
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.container{
+	width: 100%;
+	min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.form{
+  width: 55%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 65px 40px 65px;
+  margin:5% auto;
+  border:1px solid black;
+  border-radius:5px;
+  background:black;
+  opacity: .6;
+  
+}
+
+.labeladd{	
+	color:white;
+	margin:2% auto;
+	
+}
+
+#inputadd{
+	width: 450px;	
+}
+
+
+#buttonadd{
+	width: 100px;
+}
